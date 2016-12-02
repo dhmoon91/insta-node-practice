@@ -37,6 +37,6 @@ ig.user_self_media_recent(function(err,medias,pagination,remaining,limit){
 // render the home page and pass in the popular images
   //res.render('pages/index', { grams: medias });
 
-app.listen(port () => {
+app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
